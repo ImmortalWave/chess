@@ -11,8 +11,9 @@ class pieces {
         string name;
         string location;
         string color;
+        bool ispiece;
 
 };
 
-pieces::pieces() : name("  ") , location(), color() {}
-pieces::pieces(const string & color) : name() , location(), color(color) {}
+pieces::pieces() : name("  ") , location(), color(), ispiece(false){}
+pieces::pieces(const string & color) : name() , location(), color(color), ispiece(true) {}
