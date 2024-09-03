@@ -1,14 +1,10 @@
-#include <iostream>
-#include "board.h"
+#include "chess.h"
 
 using namespace std;
 
 int main() {
     
-    board myboard;
-
-    myboard.initboard();
-    myboard.print();
+    chess game;
     
     return 0;
 }
